@@ -1,0 +1,54 @@
+﻿@model Drewby.FollowMe.Models.FollowMePart
+
+<fieldset>
+  <legend>FollowMe Fields</legend>
+            
+  <div class="editor-label">
+    @Html.LabelFor(model => model.TwitterUrl)
+  </div>
+  <div class="editor-field">
+    @Html.TextBoxFor(model => model.TwitterUrl)
+    @Html.ValidationMessageFor(model => model.TwitterUrl)
+  </div>
+
+  <div class="editor-label">
+    @Html.LabelFor(model => model.FacebookUrl)
+  </div>
+  <div class="editor-field">
+    @Html.TextBoxFor(model => model.FacebookUrl)
+    @Html.ValidationMessageFor(model => model.FacebookUrl)
+  </div>
+
+  <div class="editor-label">
+    @Html.LabelFor(model => model.RssUrl)
+  </div>
+  <div class="editor-field">
+    @Html.TextBoxFor(model => model.RssUrl)
+    @Html.ValidationMessageFor(model => model.RssUrl)
+  </div>
+
+  <div class="editor-label">
+    @Html.LabelFor(model => model.EmailUrl)
+  </div>
+  <div class="editor-field">
+    @Html.TextBoxFor(model => model.EmailUrl)
+    @Html.ValidationMessageFor(model => model.EmailUrl)
+  </div>
+
+  <div class="editor-label">
+    @Html.LabelFor(model => model.FlickrUrl)
+  </div>
+  <div class="editor-field">
+    @Html.TextBoxFor(model => model.FlickrUrl)
+    @Html.ValidationMessageFor(model => model.FlickrUrl)
+  </div>
+
+  <div class="editor-label">
+    @Html.LabelFor(model => model.YouTubeUrl)
+  </div>
+  <div class="editor-field">
+    @Html.TextBoxFor(model => model.YouTubeUrl)
+    @Html.ValidationMessageFor(model => model.YouTubeUrl)
+  </div>
+
+</fieldset>

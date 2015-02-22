@@ -1,0 +1,13 @@
+State: Running
+Themes:
+Modules:
+Name: Default
+DataProvider: SqlServer
+DataConnectionString: Data Source=a6v8ct4q8a.database.windows.net;Initial Catalog=CodeLarochelle;User ID=LGC;Password=Montréal2015
+DataTablePrefix: null
+RequestUrlHost: null
+RequestUrlPrefix: null
+EncryptionAlgorithm: AES
+EncryptionKey: E46870AA7A63BC36615B0D81F609E2EB5E60F4EC01463EDA65B7189F3A6240EF
+HashAlgorithm: HMACSHA256
+HashKey: ACA3DFB2E85625CD8A7821F2EF0C9505D6E78A1980E1FCFD036F569945A2075BA24063CA16C4DA17254C56DDC1D762C61AC846E1CC9D26650AB17C36EFE6EDFE

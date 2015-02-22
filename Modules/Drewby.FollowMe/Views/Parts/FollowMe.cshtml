@@ -1,0 +1,24 @@
+﻿@using Drewby.FollowMe.ViewModels
+
+@{
+    Style.Require("FollowMe");
+    Script.Require("jQuery");
+}
+
+@using (Script.Foot())
+{
+<script language="javascript" type="text/javascript">
+    $(document).ready(function () {
+        $('.followme li').mouseenter(function () { $(this).fadeTo(1, 1); })
+                         .mouseleave(function () { $(this).fadeTo(1, 0.75); })
+                         .fadeTo(1, 0.75);
+    });
+</script>
+}
+
+<ul class="followme">
+@foreach (SocialService svc in Model.FollowMe.Services)
+{
+    <li class="@svc.Name"><a href="@svc.Url"><img src="@Href("~/Modules/Drewby.FollowMe/Content/images/" + svc.Image + ".png")" alt="@svc.Name" /></a></li> 
+}
+</ul>
