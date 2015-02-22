@@ -3,7 +3,7 @@ Themes:
 Modules:
 Name: Default
 DataProvider: SqlServer
-DataConnectionString: Data Source=a6v8ct4q8a.database.windows.net;Initial Catalog=CodeLarochelle;User ID=LGC;Password=Montréal2015
+DataConnectionString: Data Source=a6v8ct4q8a.database.windows.net;Initial Catalog=CodeLarochelle;User ID=LGC;Password=DansTonCul
 DataTablePrefix: null
 RequestUrlHost: null
 RequestUrlPrefix: null
